@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    margin: 0;
+
+
+}
+
+img {
+    min-width: 100%;
+    min-height: 100%;
+
+    align-items: center;
+
+    z-index: 1;
+    position:fixed
+}
+
+
+#main {
+    z-index: 2;
+    color: azure;
+    position: absolute;
+    display: flex;
+    height: 100vh;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#clock {
+    display: flex;
+    font-size: 130px;
+    margin-bottom: 10px;
+    color: rgb(255, 92, 43);
+}
+#quote{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+    
+    
+
+    /* background-color: rgba(0, 0, 0, 0.233); */
+    
+
+}
+#login-form{
+    margin-left: 20px;
+    margin-top: 20px;   
+}
+#login-form input{
+    border: 0.05px solid azure;
+    background-color: rgba(240, 255, 255, 0.452);
+    
+}
+#login-form button{
+    border: 2px solid azure;
+    background-color: rgba(240, 255, 255, 0.342);
+    border-radius: 3px;
+    color: azure;
+   
+}
+#login-form button:hover{
+    cursor: pointer;
+    background-color: azure;
+    transition: 500ms ease;
+}
+#C_G_Q_F{
+    display: flex;
+    flex-direction:column;
+    margin: 0;
+}
+
+#greeting{
+    margin: 0;
+    margin-left: 20px;
+}
+
+#weather{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    font-size: 25px;
+    
+    color: rgb(255, 92, 43);
+}
+#todo-list{
+    list-style-type: circle;
+    text-shadow: 4px 4px 10px  rgb(243, 117, 78);
+}
+li button{
+    height: 22px;
+    margin-left: 15px;
+    border:none ;
+    /* border: 0.05px solid azure; */
+    background-color: rgba(0,0,0,0);
+    border-radius: 40%;
+}
+li button:hover{
+    cursor: pointer;
+    background-color: rgba(240, 255, 255, 0.452);
+    transition: 500ms ease;
+}
+#todo{
+    /* border-top:none;
+    border-right:none;
+    border-left:none; */
+    
+    margin-top: 70px;
+    border: 0.05px solid azure;
+    background-color: rgba(240, 255, 255, 0.452);
+    width:800px;
+}
